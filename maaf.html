@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf Sayangku ❤️</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+            min-height: 100vh;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* Animasi hati background */
+        .hearts {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .heart {
+            position: absolute;
+            color: #ff69b4;
+            font-size: 20px;
+            animation: float 6s infinite linear;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+            animation: fadeInUp 1.5s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            color: #ff1493;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        .message {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin: 40px 0;
+            line-height: 1.8;
+            font-size: 1.2rem;
+            color: #444;
+            backdrop-filter: blur(10px);
+            animation: slideIn 1s ease-out 0.5s both;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .promise {
+            background: linear-gradient(135deg, #ff6b9d, #c44569);
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            margin: 30px 0;
+            font-weight: 600;
+            box-shadow: 0 15px 30px rgba(255, 107, 157, 0.4);
+            animation: bounceIn 1.5s ease-out 1s both;
+        }
+
+        @keyframes bounceIn {
+            0% { transform: scale(0.3); opacity: 0; }
+            50% { transform: scale(1.05); }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .btn-forgive {
+            background: linear-gradient(135deg, #ff6b9d, #c44569);
+            color: white;
+            border: none;
+            padding: 20px 50px;
+            font-size: 1.3rem;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            box-shadow: 0 10px 30px rgba(255, 107, 157, 0.4);
+            transition: all 0.3s ease;
+            margin-top: 30px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .btn-forgive:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 107, 157, 0.6);
+        }
+
+        .love-sign {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: #ff1493;
+            margin-top: 40px;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @media (max-width: 768px) {
+            .header { font-size: 2.5rem; }
+            .message { padding: 20px; font-size: 1rem; }
+            .promise { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="hearts" id="hearts"></div>
+    
+    <div class="container">
+        <h1 class="header">Maaf Sayangku ❤️</h1>
+        <p class="subtitle">Untuk pacarku yang paling cantik di dunia ini</p>
+        
+        <div class="message">
+            <p>Hey cantikku... 😔</p>
+            <br>
+            <p>Aku tahu aku sudah bikin kamu marah terus. udah sering aku bikin kamu seperti ini, Aku sadar semua kesalahan yang aku buat dan aku benar-benar menyesal dari lubuk hati yang paling dalam .</p>
+            <br>
+            <p>Kamu adalah orang yang paling berharga buatku. Senyummu, tawamu, bahkan marahmu pun aku sayang. Aku nggak mau kehilangan kamu karena kebodohanku sendiri.</p>
+        </div>
+
+        <div class="promise">
+            <h3>💖 Janji Ku Untukmu 💖</h3>
+            <p>Aku berjanji akan berusaha berubah menjadi lebih baik. Aku akan lebih cepet mikirnya, gak lelet gitu dan berusaha ga akan ngerusak mood kamu, tolong ya sayang bersabar dengan diriku ini, Aku benar benar minta maaf.</p>
+        </div>
+
+        <button class="btn-forgive" onclick="forgiveMe()">
+            💕 Maafin Aku Ya Sayang? 💕
+        </button>
+
+        <div class="love-sign" id="loveSign" style="display: none;">
+            Terima kasih sayangku! love you moreee  ❤️🦋
+        </div>
+    </div>
+
+    <script>
+        // Buat animasi hati jatuh
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.innerHTML = '💖';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (Math.random() * 3 + 3) + 's';
+            document.getElementById('hearts').appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 6000);
+        }
+
+        // Hati terus jatuh
+        setInterval(createHeart, 300);
+
+        // Efek klik maaf
+        function forgiveMe() {
+            const btn = document.querySelector('.btn-forgive');
+            const loveSign = document.getElementById('loveSign');
+            
+            btn.innerHTML = 'Yay! Terima kasih sayangku! 😍';
+            btn.style.background = 'linear-gradient(135deg, #4ecdc4, #44a08d)';
+            
+            loveSign.style.display = 'block';
+            
+            // Konfeti effect
+            for(let i = 0; i < 50; i++) {
+                setTimeout(() => createConfetti(), i * 20);
+            }
+        }
+
+        function createConfetti() {
+            const confetti = document.createElement('div');
+            confetti.innerHTML = ['💕', '❤️', '💖', '🌸', '✨'][Math.floor(Math.random() * 5)];
+            confetti.style.position = 'fixed';
+            confetti.style.left = Math.random() * 100 + 'vw';
+            confetti.style.top = '100vh';
+            confetti.style.fontSize = '20px';
+            confetti.style.pointerEvents = 'none';
+            confetti.style.zIndex = '1000';
+            confetti.style.animation = 'float 3s linear forwards';
+            document.body.appendChild(confetti);
+            
+            setTimeout(() => confetti.remove(), 3000);
+        }
+
+        // Tambah style untuk confetti
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float {
+                0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+                100% { transform: translateY(-100px) rotate(360deg); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
