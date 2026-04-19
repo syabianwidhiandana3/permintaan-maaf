@@ -1,2 +1,0 @@
-# permintaan-maaf
-maaf
